@@ -111,8 +111,3 @@ PRODUCT_COPY_FILES += \
 # Dmabuf dump tool for bug reports
 PRODUCT_PACKAGES += \
     dmabuf_dump
-
-# Google Assistant + ANGLE
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.opa.eligible_device=true \
-    ro.gfx.angle.supported=true
