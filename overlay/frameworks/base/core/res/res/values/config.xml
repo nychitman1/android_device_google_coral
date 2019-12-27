@@ -616,6 +616,9 @@
         <item>com.tencent.mm</item>
         <item>com.google.android.documentsui</item>
     </string-array>
+  
+    <!-- Conditionalize Ambient Display mods -->
+    <bool name="config_has_Soli">true</bool>
 
     <!-- Disable AOD by default -->
     <bool name="config_dozeAlwaysOnEnabled">false</bool>
